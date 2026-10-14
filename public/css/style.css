@@ -1,0 +1,60 @@
+/* ヘッダーのスタイル */
+.c-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.c-header__title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.c-header__nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.c-header__link {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.c-header__btn--logout {
+    background-color: #ef4444;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+/* フッターのスタイル */
+.c-footer {
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    border-top: 1px solid #e5e7eb;
+}
+
+.c-footer__btn--contact {
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.c-footer__copyright {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #6b7280;
+}
